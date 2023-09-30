@@ -1,0 +1,907 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Us| ES Physio</title>
+
+    <script src="about%20us.js"></script>
+    <!--link css file---->
+    <link rel="stylesheet" href="about%20us.css" />
+
+    <!--bootstrap cdn---->
+    <!-- Latest compiled and minified CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- icon library -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comforter&family=Open+Sans:wght@300&family=Quintessential&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- font library -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comforter&family=Open+Sans:wght@300&family=Quintessential&display=swap"
+      rel="stylesheet"
+    />
+
+    <!---title icon----->
+    <link
+      rel="icon"
+      href="https://static.wixstatic.com/media/0b5961_f97d6c3395cc460fa85c557b9ef30c5e%7Emv2_d_32400_3600_s_6.jpg/v1/fill/w_192%2Ch_192%2Clg_1%2Cusm_0.66_1.00_0.01/0b5961_f97d6c3395cc460fa85c557b9ef30c5e%7Emv2_d_32400_3600_s_6.jpg"
+    />
+
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- MDB -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.2/mdb.min.css"
+      rel="stylesheet"
+    />
+    <!-- MDB -->
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.2/mdb.min.js"
+    ></script>
+  </head>
+  <body>
+    <!---header part---->
+    <div class="container-fluid pt-2 top-header">
+      <div class="row">
+        <div class="col-lg-4">
+          <!---d-flex-start--->
+          <div class="d-flex justify-content-center">
+            <div class="location-icon">
+              <i class="bi bi-geo-alt-fill"></i>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-geo-alt-fill"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"
+                />
+              </svg>
+            </div>
+            <div class="location-address pt-1">
+              <p class="fs-6 add-text">
+                1711 Avenue Road Unit #3 North York, Ontario M5M 3Y5
+              </p>
+            </div>
+          </div>
+          <!----d-flex ends--->
+        </div>
+        <!---col 4 ends here--->
+
+        <div class="col-lg-4">
+          <!---d-flex-start--->
+          <div class="d-flex justify-content-start">
+            <div class="time-icon">
+              <i class="bi bi-clock"></i>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-clock"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"
+                />
+                <path
+                  d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z"
+                />
+              </svg>
+            </div>
+            <div class="time pt-1">
+              <p class="fs-6 add-text">Mon - Fri : 08.00 AM - 07.00 PM</p>
+            </div>
+          </div>
+          <!----d-flex ends--->
+        </div>
+        <!---col 4 ends here--->
+
+        <div class="col-lg-4">
+          <!---d-flex-start--->
+          <div class="d-flex justify-content-center">
+            <div class="phone-icon">
+              <i class="bi bi-telephone-fill"></i>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-telephone-fill"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"
+                />
+              </svg>
+            </div>
+            <div class="contact-num pt-1">
+              <p class="fs-6 add-text">416-781-3552</p>
+            </div>
+
+            <div class="mail-icon" style="padding-left: 2rem">
+              <i class="bi bi-envelope-at-fill"></i>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-envelope-at-fill"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M2 2A2 2 0 0 0 .05 3.555L8 8.414l7.95-4.859A2 2 0 0 0 14 2H2Zm-2 9.8V4.698l5.803 3.546L0 11.801Zm6.761-2.97-6.57 4.026A2 2 0 0 0 2 14h6.256A4.493 4.493 0 0 1 8 12.5a4.49 4.49 0 0 1 1.606-3.446l-.367-.225L8 9.586l-1.239-.757ZM16 9.671V4.697l-5.803 3.546.338.208A4.482 4.482 0 0 1 12.5 8c1.414 0 2.675.652 3.5 1.671Z"
+                />
+                <path
+                  d="M15.834 12.244c0 1.168-.577 2.025-1.587 2.025-.503 0-1.002-.228-1.12-.648h-.043c-.118.416-.543.643-1.015.643-.77 0-1.259-.542-1.259-1.434v-.529c0-.844.481-1.4 1.26-1.4.585 0 .87.333.953.63h.03v-.568h.905v2.19c0 .272.18.42.411.42.315 0 .639-.415.639-1.39v-.118c0-1.277-.95-2.326-2.484-2.326h-.04c-1.582 0-2.64 1.067-2.64 2.724v.157c0 1.867 1.237 2.654 2.57 2.654h.045c.507 0 .935-.07 1.18-.18v.731c-.219.1-.643.175-1.237.175h-.044C10.438 16 9 14.82 9 12.646v-.214C9 10.36 10.421 9 12.485 9h.035c2.12 0 3.314 1.43 3.314 3.034v.21Zm-4.04.21v.227c0 .586.227.8.581.8.31 0 .564-.17.564-.743v-.367c0-.516-.275-.708-.572-.708-.346 0-.573.245-.573.791Z"
+                />
+              </svg>
+            </div>
+            <div class="gmail-id pt-1" style="padding-left: 0.6rem">
+              <p class="fs-6 add-text">416-781-3552</p>
+            </div>
+          </div>
+          <!----d-flex ends--->
+        </div>
+      </div>
+      <!--row ends here--->
+    </div>
+    <!---top header closed--->
+
+    <!--nav bar ----->
+    <nav
+      class="navbar navbar-expand-lg navbar-light bg-white sticky-top shadow"
+    >
+      <div class="container-fluid">
+        <a href="#" class="navbar-brand">
+          <img
+            src="pics/logoclinic.PNG"
+            alt="headerlogo"
+            class="d-inline-block img-logo"
+          />
+        </a>
+        <button
+          type="button"
+          class="navbar-toggler"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarCollapse"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <div class="navbar-nav ms-auto nav-list">
+            <a
+              href="Index.html"
+              class="nav-item nav-link a-list fs-5 text-black"
+              >Home</a
+            >
+            <a
+              href="about%20us.html"
+              class="nav-item nav-link fs-5 a-list text-black"
+              >About</a
+            >
+            <a
+              href="services.html"
+              class="nav-item nav-link fs-5 a-list text-black"
+              >Services</a
+            >
+            <a href="FAQ.html" class="nav-item nav-link fs-5 a-list text-black"
+              >FAQ</a
+            >
+            <a
+              href="contactus.html"
+              class="nav-item nav-link fs-5 a-list text-black"
+              style="padding-right: 1rem"
+              >Contact Us</a
+            >
+            <button type="button" class="btn booking-button fs-5">
+              Online Bookings
+            </button>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!------------------------------nav bar ends here-------------------------------------->
+
+    <!--background image---------->
+    <img
+      class="img-responsive aboutImage"
+      src="pics/aboutus%20img.PNG"
+      alt="background img"
+    />
+    <div class="text center">
+      <h1 class="h1 text-white Aboutus-imgH1">ABOUT US</h1>
+    </div>
+    <!--background image---------->
+
+    <div class="container-fluid aboutUsMainCont">
+      <div class="row d-flex justify-content-center">
+        <div class="col-xl-4 img-conta mob-column-order1">
+          <div class="embed-responsive">
+            <video
+              class="video"
+              muted=""
+              autoplay=""
+              loop=""
+              src="pics/_import_60e93196699949.08924697_FPpreview.mp4"
+              type="video/mp4"
+              alt="video-m4"
+            ></video>
+          </div>
+          <!--<img src="pics/team-doctors-standing-together-hospital-premises.jpg" class="mx-auto d-block rounded aboutinto-img">--->
+        </div>
+        <!--col ends here--->
+
+        <div class="col-md-6 pt-5">
+          <div class="container">
+            <h1 class="h1 aboutus-h1">
+              Why You Should Trust Us? Get Know About Us!
+            </h1>
+          </div>
+          <div class="container pt-3">
+            <p class="fs-4 para-into">
+              We are a Physiotherapist owned and operated clinic established in
+              1993. We provide personalized hands on treatment with highly
+              skilled registered physiotherapists trained in the latest
+              evidence-based techniques. Our results speak for themselves:
+              quicker recovery times and early return to activity. All of our
+              physiotherapists are all active with post-graduate education, and
+              we have two FCAMPT therapists on staff.
+            </p>
+
+            <div class="container d-flex justify-content-center pt-3">
+              <button
+                type="button"
+                class="btn read-more-btn fs-4"
+                onclick="window.location.href = 'about us.html';"
+              >
+                Read More
+              </button>
+            </div>
+          </div>
+        </div>
+        <!---col ends here--->
+      </div>
+      <!--row ends here--->
+    </div>
+    <!----About us main conatiner ends here---->
+
+    <!---whychooseus----->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-6 pt-5 col-6-1">
+          <div class="container">
+            <div class="container pt-3">
+              <h1 class="h1 Chooseus-h1">Why Choose Us</h1>
+            </div>
+
+            <div class="container pt-4">
+              <p class="fs-5 para-into">
+                Our clinic has a staff of highly qualified and experienced
+                physiotherapists that care about your health. We believe in
+                treatment regimens that are customised to your individual needs.
+                We build a customised programme particularly for you, whether
+                you're recuperating from an injury, managing chronic pain, or
+                seeking preventative treatment.
+              </p>
+            </div>
+
+            <div class="container">
+              <div class="row">
+                <div class="col-sm-6">
+                  <img
+                    src="pics/expDoc.png"
+                    class="mx-auto d-block"
+                    alt="doc icon"
+                    style="width: 20%"
+                  />
+                  <p class="fs-4 text-center">Experience Doctors</p>
+                </div>
+                <div class="col-sm-6">
+                  <img
+                    src="pics/services-removebg-preview.png"
+                    alt="services icon"
+                    class="mx-auto d-block"
+                    style="width: 20%"
+                  />
+                  <p class="fs-4 text-center">Quality Services</p>
+                </div>
+
+                <div class="col-sm-6">
+                  <img
+                    src="pics/positive-removebg-preview.png"
+                    alt="Positive icon"
+                    class="mx-auto d-block"
+                    style="width: 23%"
+                  />
+                  <p class="fs-4 text-center">Positive Consultation</p>
+                </div>
+
+                <div class="col-sm-6">
+                  <img
+                    src="pics/24hours-removebg-preview.png"
+                    alt="24h icon"
+                    class="mx-auto d-block"
+                    style="width: 23%"
+                  />
+                  <p class="fs-4 text-center">24 Hours Support</p>
+                </div>
+              </div>
+              <!--row ends here-->
+            </div>
+          </div>
+        </div>
+        <!---col6 ends here--->
+
+        <div class="col-lg-6 order-md-2" style="margin: 0; padding: 0">
+          <img
+            src="pics/team-doctors-standing-together-hospital-premises.jpg"
+            alt="teams doctors"
+            class="mx-auto d-block aboutinto-img"
+          />
+        </div>
+        <!--col ends here--->
+      </div>
+      <!--row ends here--->
+    </div>
+
+    <div class="container-fluid card-fluid">
+      <div class="container pt-5">
+        <h1 class="h1 Chooseus-h1 text-center">ABOUT OUR PROFESSIONALS</h1>
+      </div>
+
+      <div class="container mt-5">
+        <!-- Carousel wrapper -->
+        <div
+          id="carouselExampleControls"
+          class="carousel slide text-center carousel-dark"
+          data-mdb-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                class="rounded-circle shadow-1-strong mb-4"
+                src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(10).webp"
+                alt="avatar"
+                style="width: 150px"
+              />
+              <div class="row d-flex justify-content-center">
+                <div class="col-lg-8">
+                  <h5 class="mb-3">Maria Kate</h5>
+                  <p>Photographer</p>
+                  <p class="text-muted">
+                    <i class="fas fa-quote-left pe-2"></i>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Minus et deleniti nesciunt sint eligendi reprehenderit
+                    reiciendis, quibusdam illo, beatae quia fugit consequatur
+                    laudantium velit magnam error. Consectetur distinctio fugit
+                    doloremque.
+                  </p>
+                </div>
+              </div>
+              <ul
+                class="list-unstyled d-flex justify-content-center text-warning mb-0"
+              >
+                <li><i class="fas fa-star fa-sm"></i></li>
+                <li><i class="fas fa-star fa-sm"></i></li>
+                <li><i class="fas fa-star fa-sm"></i></li>
+                <li><i class="fas fa-star fa-sm"></i></li>
+                <li><i class="far fa-star fa-sm"></i></li>
+              </ul>
+            </div>
+            <div class="carousel-item">
+              <img
+                class="rounded-circle shadow-1-strong mb-4"
+                src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(32).webp"
+                alt="avatar"
+                style="width: 150px"
+              />
+              <div class="row d-flex justify-content-center">
+                <div class="col-lg-8">
+                  <h5 class="mb-3">John Doe</h5>
+                  <p>Web Developer</p>
+                  <p class="text-muted">
+                    <i class="fas fa-quote-left pe-2"></i>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Minus et deleniti nesciunt sint eligendi reprehenderit
+                    reiciendis.
+                  </p>
+                </div>
+              </div>
+              <ul
+                class="list-unstyled d-flex justify-content-center text-warning mb-0"
+              >
+                <li><i class="fas fa-star fa-sm"></i></li>
+                <li><i class="fas fa-star fa-sm"></i></li>
+                <li><i class="fas fa-star fa-sm"></i></li>
+                <li><i class="fas fa-star fa-sm"></i></li>
+                <li><i class="far fa-star fa-sm"></i></li>
+              </ul>
+            </div>
+            <div class="carousel-item">
+              <img
+                class="rounded-circle shadow-1-strong mb-4"
+                src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).webp"
+                alt="avatar"
+                style="width: 150px"
+              />
+              <div class="row d-flex justify-content-center">
+                <div class="col-lg-8">
+                  <h5 class="mb-3">Anna Deynah</h5>
+                  <p>UX Designer</p>
+                  <p class="text-muted">
+                    <i class="fas fa-quote-left pe-2"></i>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Minus et deleniti nesciunt sint eligendi reprehenderit
+                    reiciendis, quibusdam illo, beatae quia fugit consequatur
+                    laudantium velit magnam error. Consectetur distinctio fugit
+                    doloremque.
+                  </p>
+                </div>
+              </div>
+              <ul
+                class="list-unstyled d-flex justify-content-center text-warning mb-0"
+              >
+                <li><i class="fas fa-star fa-sm"></i></li>
+                <li><i class="fas fa-star fa-sm"></i></li>
+                <li><i class="fas fa-star fa-sm"></i></li>
+                <li><i class="fas fa-star fa-sm"></i></li>
+                <li><i class="far fa-star fa-sm"></i></li>
+              </ul>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-mdb-target="#carouselExampleControls"
+            data-mdb-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-mdb-target="#carouselExampleControls"
+            data-mdb-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <!-- Carousel wrapper -->
+
+        <!---row
+                <div class="row">
+                     col1 starts---
+                    <div class="col-md-4 col4-mob">
+                        <div class="container card-container shadow">
+                            <div class="d-flex justify-content-center img-hover-zoom--slowmo">
+                                <img src="pics/David_London_Schacht.jpg" alt="Rounded Image" class="rounded-circle img-fluid roundimg-circle"/>
+                            </div>
+                            <div class="container pt-3">
+                                <h5 class="h5 doctors-name text-center">DAVID LONDON-SCHACHT</h5>
+
+                                <div class="container d-flex justify-content-center pt-3">
+                                    <button id="readBtn" type="button" class="btn read-btn fs-4" onclick="showContent()">Read More</button>
+                                </div>
+
+                                <div class="pt-3" id="detail1" style="display: none">
+                                    <p class="fs-6 img-text-para">
+                                        David is passionate about teaching people how to move pain-free and educating them on the importance of
+                                        integrating movement and exercises into their routines, allowing them to not only meet, but exceed their
+                                        health goals while remaining pain-free. David is also very passionate about helping people improve their
+                                        posture, mindfulness, and quality of life with his yoga background incorporated into his practice.
+                                        He focuses on treating the individual and not the symptoms of their injuries for a holistic and sustainable approach to patient care.
+                                    </p>
+                                </div>
+                                <div class="pt-2">
+                                    <h6 class="h6"><b>David London-Schacht, MScPT, HBSc, RYT-200, CPT, OTC, Physiotherapy Resident</b></h6>
+                                </div>
+
+                                <div class="container d-flex justify-content-end pt-3">
+                                    <button type="button" class="btn book-btn fs-5" onclick="window.location.href = '#';">Book David</button>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>col ends--->
+
+        <!--- col2 starts---
+                    <div class="col-md-4 col4-mob">
+                        <div class="container card-container shadow">
+                            <div class="d-flex justify-content-center img-hover-zoom--slowmo">
+                                <img src="pics/Roman%20A_%20Izquierdo.jpg" alt="Rounded Image" class="rounded-circle img-fluid roundimg-circle"/>
+                            </div>
+                            <div class="container pt-3">
+                                <h5 class="h5 doctors-name text-center">ROMAN IZQUIERDO</h5>
+
+                                <div class="container d-flex justify-content-center pt-3">
+                                    <button type="button" class="btn read-btn fs-4" onclick="showContent2()">Read More</button>
+                                </div>
+
+                                <div class="pt-3" id="detail2" style="display: none">
+                                    <p class="fs-6 img-text-para">
+                                        Roman is an innovative physiotherapist, specializing in injury rehabilitation, musculoskeletal health preservation, and performance optimization.
+                                        I graduated from York University with a Specialized Honors BSc, in Kinesiology with the highest distinction (Summa Cum Laude) in 2013.During the Initial Physiotherapy appointment, Roman likes to perform a full-body scan to get to the root cause of the problem.  Roman is especially keen on empowering clients to learn about their bodies and to find ways
+                                        to manage their pain, mobility, and fitness from a preventative rather than reactive approach.
+                                </div>
+                                <div class="pt-2">
+                                    <h6 class="h6"><b>BSc(Kin), MScPT, Registered<br> Physiotherapist</b></h6>
+                                </div>
+
+                                <div class="container d-flex justify-content-end pt-3">
+                                    <button type="button" class="btn book-btn fs-5" onclick="window.location.href = '#';">Book ROMAN</button>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>--col ends--->
+
+        <!--- col3 starts---
+                    <div class="col-md-4 col4-mob">
+                        <div class="container card-container shadow">
+                            <div class="d-flex justify-content-center img-hover-zoom--slowmo">
+                                <img src="pics/SuzieForeman%5B1%5D.jpg" alt="Rounded Image" class="rounded-circle img-fluid roundimg-circle"/>
+                            </div>
+                            <div class="container pt-3">
+                                <h5 class="h5 doctors-name text-center">
+                                    SUZIE FOREMAN</h5>
+
+                                <div class="container d-flex justify-content-center pt-3">
+                                    <button type="button" class="btn read-btn fs-4" onclick="showContent3()">Read More</button>
+                                </div>
+
+                                <div class="pt-3" id="detail3" style="display: none">
+                                    <p class="fs-6 img-text-para">
+                                        Suzie graduated with a Bachelor of Science in Physiotherapy in 1986. After graduating, she worked
+                                        at Olympia Sports Camp, with York University’s rugby team and Ontario rugby, and at many sporting events
+                                        in order to obtain her Sports Physiotherapy Certification. Suzie has been a member of the Ontario Sports
+                                        Physiotherapy Executive Committee. She works in Orthopaedics and has attained her Level 3 manual therapy
+                                        and has completed her McKenzie A, B and C courses.
+                                        Suzie is active with fitness classes and Pilates, and enjoys spinning and cycling.</p>
+                                </div>
+                                <div class="pt-2">
+                                    <h6 class="h6"><b>BScPT, MCPA, CGIMS, Registered Physiotherapist</b></h6>
+                                </div>
+
+                                <div class="container d-flex justify-content-end pt-3">
+                                    <button type="button" class="btn book-btn fs-5" onclick="window.location.href = '#';">Book SUZIE </button>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>--col ends---
+
+
+
+                </div><--row ends here--->
+      </div>
+      <!--/container-->
+    </div>
+
+    <!---footer starts--->
+    <div class="container-fluid footer mt-5 pt-5 footer-fluid">
+      <footer class="container-fluid">
+        <div
+          class="row d-flex justify-content-center"
+          style="padding-bottom: 2rem"
+        >
+          <div class="col-lg-3 col-md-6 map-col">
+            <div class="container pt-2">
+              <h1 class="h1 clinic-h1">Address</h1>
+            </div>
+            <ul class="nav flex-column mt-3 pt-4">
+              <li class="nav-item mb-2">
+                <p class="mb-2 fs-4 text-white">
+                  <i class="fa fa-map-marker-alt me-3"></i>1711 Avenue Road
+                  <br />
+                  Unit #3 North York <br />
+                  Ontario M5M 3Y5
+                </p>
+              </li>
+
+              <li class="nav-item mb-2">
+                <p class="mb-2 fs-4 text-white">
+                  <i class="fa fa-phone-alt me-3"></i>416-781-3552
+                </p>
+              </li>
+
+              <li class="nav-item mb-2">
+                <p class="mb-2 fs-4 text-white">
+                  <i class="fa fa-envelope me-3"></i> info@esphysiotherapy.ca
+                </p>
+              </li>
+            </ul>
+          </div>
+          <!--col ends--->
+          <div class="col-lg-3 col-md-6">
+            <div class="container pt-2">
+              <h1 class="h1 clinic-h1">Services</h1>
+            </div>
+
+            <ul class="nav flex-column mt-3 pt-4">
+              <li class="nav-item mb-2">
+                <a
+                  href=""
+                  class="nav-link footer-nav p-2 text-white fs-5 d-flex"
+                >
+                  <i class="bi bi-arrow-right-short"></i>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="30"
+                    height="30"
+                    fill="currentColor"
+                    class="bi bi-arrow-right-short"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+                    />
+                  </svg>
+                  PHYSIOTHERAPY
+                </a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="" class="nav-link footer-nav p-2 text-white fs-5">
+                  <i class="bi bi-arrow-right-short"></i>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="30"
+                    height="30"
+                    fill="currentColor"
+                    class="bi bi-arrow-right-short"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+                    />
+                  </svg>
+                  MANUAL THERAPY
+                </a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="" class="nav-link footer-nav p-2 text-white fs-5">
+                  <i class="bi bi-arrow-right-short"></i>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="30"
+                    height="30"
+                    fill="currentColor"
+                    class="bi bi-arrow-right-short"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+                    />
+                  </svg>
+                  ACUPUNCTURE
+                </a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="" class="nav-link footer-nav p-2 text-white fs-5">
+                  <i class="bi bi-arrow-right-short"></i>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="30"
+                    height="30"
+                    fill="currentColor"
+                    class="bi bi-arrow-right-short"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+                    />
+                  </svg>
+                  MODALITIES
+                </a>
+              </li>
+
+              <li class="nav-item mb-2">
+                <a href="" class="nav-link footer-nav p-2 text-white fs-5">
+                  <i class="bi bi-arrow-right-short"></i>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="30"
+                    height="30"
+                    fill="currentColor"
+                    class="bi bi-arrow-right-short"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+                    />
+                  </svg>
+                  FALL PREVENTION
+                </a>
+              </li>
+
+              <li class="nav-item mb-2">
+                <a href="" class="nav-link footer-nav p-2 text-white fs-5">
+                  <i class="bi bi-arrow-right-short"></i>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="30"
+                    height="30"
+                    fill="currentColor"
+                    class="bi bi-arrow-right-short"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+                    />
+                  </svg>
+                  EXERCISE PRESCRIPTION
+                </a>
+              </li>
+            </ul>
+          </div>
+          <!--services col ends here--->
+          <div class="col-lg-3 col-md-6">
+            <div class="container pt-2">
+              <h1 class="h1 clinic-h1">Quick Links</h1>
+            </div>
+
+            <ul class="nav flex-column mt-3 pt-4">
+              <li class="nav-item mb-2">
+                <a
+                  href="Index.html"
+                  class="nav-link footer-nav p-2 text-white fs-5 d-flex active"
+                >
+                  <i class="bi bi-arrow-right-short"></i>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="30"
+                    height="30"
+                    fill="currentColor"
+                    class="bi bi-arrow-right-short"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+                    />
+                  </svg>
+                  Home
+                </a>
+              </li>
+              <li class="nav-item mb-2">
+                <a
+                  href="about%20us.html"
+                  class="nav-link footer-nav p-2 text-white fs-5"
+                >
+                  <i class="bi bi-arrow-right-short"></i>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="30"
+                    height="30"
+                    fill="currentColor"
+                    class="bi bi-arrow-right-short"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+                    />
+                  </svg>
+                  About Us
+                </a>
+              </li>
+              <li class="nav-item mb-2">
+                <a
+                  href="contactus.html"
+                  class="nav-link footer-nav p-2 text-white fs-5"
+                >
+                  <i class="bi bi-arrow-right-short"></i>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="30"
+                    height="30"
+                    fill="currentColor"
+                    class="bi bi-arrow-right-short"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+                    />
+                  </svg>
+                  Contact Us
+                </a>
+              </li>
+              <li class="nav-item mb-2">
+                <a
+                  href="services.html"
+                  class="nav-link footer-nav p-2 text-white fs-5"
+                >
+                  <i class="bi bi-arrow-right-short"></i>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="30"
+                    height="30"
+                    fill="currentColor"
+                    class="bi bi-arrow-right-short"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+                    />
+                  </svg>
+                  Services
+                </a>
+              </li>
+
+              <li class="nav-item mb-2">
+                <a
+                  href="FAQ.html"
+                  class="nav-link footer-nav p-2 text-white fs-5"
+                >
+                  <i class="bi bi-arrow-right-short"></i>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="30"
+                    height="30"
+                    fill="currentColor"
+                    class="bi bi-arrow-right-short"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+                    />
+                  </svg>
+                  FAQs
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <hr class="hr-footer" />
+        <div class="d-flex flex-column flex-sm-row justify-content-center pt-2">
+          <div>
+            <p class="text-white fs-5">
+              &copy;
+              <script>
+                document.write(new Date().getFullYear());
+              </script>
+              Eisenhauer and Smith Physiotherapy, Inc. All rights reserved.
+            </p>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

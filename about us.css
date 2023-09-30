@@ -1,0 +1,400 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+.spinner-grow.spinner{
+    background-color: #516d32;
+}
+
+.container-fluid.top-header{
+    background-color:#dbf3b1
+}
+
+.location-address{
+    padding-left: 0.2rem;
+}
+
+.add-text{
+    font-family: "Open Sans",sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #8D8E92;
+}
+
+.time{
+    padding-left: 0.6rem;
+}
+
+.contact-num{
+    padding-left: 0.6rem;
+}
+
+.img-logo{
+    width: 100%;
+}
+
+.nav-link.a-list{
+    padding-left: 1.5rem !important;
+}
+
+.nav-link.a-list:hover,
+.nav-link.a-list:active,
+.nav-link.a-list:focus{
+    color: #b5d67c !important;
+    text-decoration-line: underline;
+    font-weight: bold;
+    text-underline-position: under;
+}
+
+.btn.booking-button{
+    background-color: #b5d67c;
+}
+
+.btn.booking-button:hover,
+.btn.booking-button:active,
+.btn.booking-button:focus{
+    background-color: black;
+    color: white;
+}
+
+.img-responsive.aboutImage{
+    width: 100%;
+    height:auto ;
+    position: relative;
+}
+
+.center {
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+.h1.Aboutus-imgH1{
+    font-weight: bold;
+    font-family: "Arial Black", sans-serif;
+    font-size: 4.375rem ;
+}
+
+
+.col-xl-4.img-conta{
+   padding-top: 6rem;
+}
+
+.para-into{
+    text-align: justify;
+    line-height: 1.5;
+}
+
+.h1.aboutus-h1{
+    letter-spacing: 0.15em;
+    text-decoration-line: underline;
+    text-underline-position: under;
+    text-decoration-color: #b5d67c;
+    font-weight: bold;
+    font-size: 2.657rem;
+    text-decoration-thickness: 7px;
+    line-height: 1.7;
+}
+
+.btn.read-more-btn{
+    background-color: #b5d67c;
+    border-radius: 50rem !important;
+    font-weight: bold;
+    width: 50%;
+}
+
+.btn.read-more-btn:hover,
+.btn.read-more-btn:active,
+.btn.read-more-btn:focus{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+.video{
+    width: 100%;
+}
+
+.container-fluid.aboutUsMainCont{
+    padding-bottom: 4.7rem;
+    padding-top: 2rem;
+}
+
+.mx-auto.d-block.aboutinto-img{
+    width: 100%;
+}
+
+.col-lg-6.col-6-1{
+    background-color: #ddf4a2;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.Chooseus-h1{
+    letter-spacing: 0.15em;
+    text-decoration-line: underline;
+    text-underline-position: under;
+    text-decoration-color: #b5d67c;
+    font-weight: bold;
+    font-size: 2.957rem;
+    text-decoration-thickness: 7px;
+    line-height: 1.7;
+}
+
+.img-cover{
+    object-fit: cover;
+    object-position: center;
+}
+
+.roundimg-circle{
+    width: 260px;
+    height: 260px;
+}
+
+.img-text-para{
+    text-align: justify;
+}
+
+.card-fluid{
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+}
+
+.h5.doctors-name{
+    letter-spacing: 0.15em;
+    text-decoration-line: underline;
+    text-underline-position: under;
+    text-decoration-color: #b5d67c;
+    font-weight: bold;
+    text-decoration-thickness: 7px;
+}
+
+.btn.book-btn{
+    background-color: #b5d67c;
+    width: 70%;
+    font-weight: bold;
+}
+
+.btn.book-btn:hover,
+.btn.book-btn:active,
+.btn.book-btn:focus{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+.container.card-container{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color:#f2f2f2;
+    border-radius:3%;
+}
+
+.card-container:hover{
+    -ms-transform: scale(0.9); /* IE 9 */
+    -webkit-transform: scale(0.9); /* Safari 3-8 */
+    transform: scale(0.9);
+}
+
+.img-hover-zoom--slowmo img {
+    transition: transform .5s, filter 1.5s ease-in-out;
+}
+
+/* The Transformation */
+.img-hover-zoom--slowmo:hover img {
+    filter: grayscale(0);
+    transform: scale(1.1);
+}
+
+.footer-fluid{
+    background-color: #859f52;
+}
+
+.nav-link.company-link{
+    font-size: 14px;
+    font-family: "Object Sans", sans-serif;
+}
+
+
+.h1.clinic-h1{
+    font-family: "Object Sans", sans-serif;
+    letter-spacing: 0.15em;
+    color: white;
+    font-weight: bold;
+}
+
+.address-icon{
+    padding-top: 0.1rem;
+}
+
+.loca-add{
+    font-weight: bold;
+}
+
+
+.nav-link.footer-nav{
+    font-family: "Object Sans", sans-serif;
+}
+
+.nav-link.footer-nav:hover,
+.nav-link.footer-nav:focus,
+.nav-link.footer-nav:active{
+    color: #516d32 !important;
+    text-decoration-line: underline;
+    font-weight: bold;
+    text-underline-position: under;
+    -ms-transform: scale(4.6);
+    /* IE 9 */
+    -webkit-transform: scale(1.15);
+    /* Safari 3-8 */
+    transform: scale(1.15);
+}
+
+.hr-footer{
+    color: white;
+}
+
+.btn.read-btn{
+    position: relative;
+    transition: 0.5s;
+    margin: 0.8em;
+}
+
+.read-btn::before,
+.read-btn::after {
+    content: '';
+    position: absolute;
+    width: 0.6em;
+    height: 0.6em;
+    transition: 0.5s cubic-bezier(0.5, -0.5, 0.25, 1.5);
+    top: calc(50% - 0.6em / 2);
+}
+
+.read-btn::before {left: 0; z-index: -1;}
+.read-btn::after {right: 0; z-index: -2;}
+
+.read-btn:hover {
+    color: white;
+}
+
+.read-btn::before,
+.read-btn::after {
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+    background-color: #b5d67c;
+}
+
+.read-btn::before {
+    top: 0;
+}
+
+.read-btn::after {
+    right: -0.4em;
+    filter: brightness(0.8);
+}
+
+
+
+@media only screen and (min-width: 300px) and  (max-width:767px){
+
+    .container-fluid.top-header{
+        display: none;
+    }
+
+    .navbar-toggler-icon{
+        width: 20px;
+    }
+
+    .navbar-toggler{
+        width: 55px;
+    }
+
+
+    .h1.Aboutus-imgH1{
+        display: none;
+    }
+
+    .text.center{
+        display: none;
+    }
+
+    .col-xl-4.img-conta{
+        padding-top: 1rem;
+    }
+
+    .container-fluid.aboutUsMainCont{
+        padding-bottom: 1rem;
+        padding-top: 0rem;
+    }
+
+    .mob-column-order1{
+        order: 2;
+    }
+
+    .h1.aboutus-h1{
+        font-size: 1.657rem;
+        text-decoration-thickness: 4px;
+    }
+
+    .btn.read-more-btn{
+        border-radius: 0rem !important;
+        font-weight: bold;
+        width: 100%;
+    }
+
+    .Chooseus-h1{
+        font-size: 1.957rem;
+        text-decoration-thickness: 4px;
+    }
+
+    .btn.book-btn{
+        background-color: #b5d67c;
+        font-weight: bold;
+        width: 100%;
+    }
+
+    .col4-mob{
+        padding-bottom: 1rem;
+    }
+
+    .card-fluid{
+        padding-bottom: 1rem;
+    }
+
+    .card-fluid{
+        padding-bottom: 0rem;
+        padding-top: 0rem;
+    }
+
+}
+
+@media only screen and (min-width: 446px) and  (max-width:600px){
+    .h1.phys-h1{
+        font-size: 2.4rem;
+    }
+
+    .btn.Appointment-button{
+        padding-top: 1.4rem;
+        padding-bottom: 1.4rem;
+        font-weight: bold;
+    }
+
+    .h1.philospy-h1{
+        font-size: 1.997rem;
+    }
+}
